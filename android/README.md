@@ -21,12 +21,14 @@ The Bluemix Mobile Starter for Weather showcases getting a forecast using the co
 
 * A [Bluemix](http://bluemix.net) Account
 * [Android Studio](https://developer.android.com/studio/index.html) and [Gradle](https://gradle.org/gradle-download/)
+* [Google Maps API Key](https://developers.google.com/maps/documentation/embed/get-api-key)
 * [Weather](https://new-console.ng.bluemix.net/catalog/weather-company-data) service instance obtained from the [Bluemix Catalog](https://new-console.ng.bluemix.net/catalog/)
 
 ### Configuration
 
 * Open the project in Android Studio and perform a Gradle Sync.
-* Navigate to `res/values/google_maps_api.xml`, generate an API key, and input your credential information:
+* Navigate to `res/values/google_maps_api.xml` and update the generated api key from the google developer console
+* Input your credential information from the weather service
 
 ```HTML
 <resources>
