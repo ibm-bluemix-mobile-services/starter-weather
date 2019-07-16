@@ -28,7 +28,7 @@ The Bluemix Mobile Starter for Weather showcases getting a forecast using the co
 
 * Open the project in Android Studio and perform a Gradle Sync.
 * Navigate to `res/values/google_maps_api.xml` and update the generated api key from the google developer console
-* Input your credential information from the weather service
+
 
 ```HTML
 <resources>
